@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>M Ciałowicz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="Shortcut icon" href="img/ico/icon.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="scrolling.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+     $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && ( $(e.target).attr('class') != 'dropdown-toggle' ) ) {
+        $(this).collapse('hide');
+    }
+    });
+  </script>
+</head>
+<body>
+
+<!--Navigation-->
+
+<nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
+    
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+                <spac class="icon-bar"></spac>
+                <spac class="icon-bar"></spac>
+                <spac class="icon-bar"></spac>
+            </button>
+            <a href="#home" class="navbar-brand scroll"><img src="img/logo.png" alt=""></a>
+        </div><!-- end of navbar header -->
+        
+        <div class="collapse navbar-collapse" id="myNav">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home" class="scroll">Home</a></li>
+                <li><a href="#offer_nav" class="scroll">Offer</a></li>
+                <li><a href="#portfolio_nav" class="scroll">Portfolio</a></li>
+                <li><a href="#about_nav" class="scroll">About</a></li>
+                <li><a href="#contact_nav" class="scroll">Contact</a></li>
+            </ul>
+        </div> <!-- end of navbar-collapse -->
+    </div> <!-- end of container -->
+</nav> <!-- end of nav -->
+
+<!-- Home -->
+
+<section id="home">
+    <div class="landing-text">
+        <h1>MATEUSZ CIAŁOWICZ</h1>
+        <h3>Web Developer & Programist</h3>
+        <a href="#portfolio_nav" class="btn btn-default btn-lg scroll">Learn More</a>
+    </div>
+</section><!-- end of home -->
+
+<!--<div id="fixed"></div>-->
+
+
+<!--Offer-->
+<a class="anchor" id="offer_nav"></a>
+<section id="offer" class="container-fluid text-center">
+    
+    <h1>Offer</h1>
+    <p class="lead">What can I do for you?</p>
+    
+    <div class="row">
+        <div class="col-sm-4">
+           <img src="img/code.png" alt="" class="imge">
+           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dicta aspernatur neque eius iure veniam, velit quos id consequuntur sapiente, quae, aperiam. Accusamus, expedita error?</p>
+           </div>
+           <div class="col-sm-4">
+            <img src="img/responsive.png" alt="" class="imge">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet corrupti magnam est, explicabo modi rerum sapiente vitae blanditiis mollitia quo!</p>
+            </div>
+            <div class="col-sm-4">
+            <img src="img/design.png" alt="" class="imge">
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quia qui odit at! Vitae consectetur doloribus voluptatum sapiente enim amet fugiat laudantium at, quidem qui dolore vero suscipit quasi pariatur.</p>
+            </div>
+            
+        
+    </div>
+    
+</section><!-- End of offer -->
+<div id="fixed"></div>
+<a class="anchor" id="portfolio_nav"></a>
+<section id="portfolio" class="container-fluid text-center">
+        <h1>Portfolio</h1>
+        
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="img/code.png" alt="" class="imge">
+        </div>
+        <div class="col-sm-4">
+            <img src="img/responsive.png" alt="" class="imge">
+        </div>
+        <div class="col-sm-4">
+            <img src="img/code.png" alt="" class="imge">
+        </div>
+         <div class="col-sm-4">
+            <img src="img/responsive.png" alt="" class="imge">
+        </div>
+        
+    </div>
+        
+</section><!-- End of portfolio -->
+
+<div id="fixed2"></div>
+
+<!-- About -->
+<a class="anchor" id="about_nav"></a>
+<section id="about" class="container-fluid text-center">
+    
+  <div class="row">
+    <div class="col-md-6 col-sm-6">
+        <h1>About me</h1>
+        <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga totam cumque, a incidunt nihil iure odio recusandae? Veniam, repudiandae optio, voluptas aspernatur eius ullam rerum sapiente vel iusto beatae qui quos, asperiores expedita nemo! Mollitia voluptatem culpa, atque quam impedit, totam cumque tempora quidem quod nihil. Aperiam error magnam reiciendis pariatur excepturi unde aliquid, velit..</p>
+    </div>       
+    <div class="col-md-6 col-sm-6">
+             <h1>About my skills</h1>
+              <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Collapsible Group 1</a>
+                </h4>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                <p style="color:red">one</p>
+                <p style="color:red">two</p>
+                <p style="color:red">three</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Collapsible Group 2</a>
+                </h4>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                <p style="color:red">one</p>
+                <p style="color:red">two</p>
+                <p style="color:red">three</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Collapsible Group 3</a>
+                </h4>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse">
+                <div class="panel-body">
+                <p style="color:red">one</p>
+                <p style="color:red">two</p>
+                <p style="color:red">three</p>
+                </div>
+              </div>
+            </div>
+        </div>
+   
+</div>       
+  </div><!-- end of row -->
+    
+</section><!-- end of about -->
+<div id="fixed"></div>
+<a class="anchor" id="contact_nav"></a>
+<section id="contact">
+    <div class="container-fulid text-center">
+          <h1>Kontakt</h1>
+            <div class="row">
+                
+                <div class="col-sm-4">
+                    <a href="mailto:mateusz.cialowicz95@gmail.com" target="_top"><img src="img/ico/envelope.png" alt="mateusz.cialowicz95@gmail.com" class="imge"><p class="lead">mateusz.cialowicz95@gmail.com</p></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="www.facebook.com/mateusz.cialowicz"><img src="img/ico/fb.png" alt="www.facebook.com/mateusz.cialowicz" class="imge"><p class="lead">facebook.com/mateusz.cialowicz</p></a>
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/ico/phone.png" alt="" class="imge"><p class="lead">+48 506 461 710</p>
+                </div>
+                
+            </div>
+        </div>			
+		</section>
+		<footer class="container-fluid text-center">
+		    
+		
+			<p>Mateusz Ciałowicz 2018 &copy; Wszelkie prawa zastrzeżone.</p>
+		</footer>
+
+
+</body>
+</html>
